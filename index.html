@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vintage Guitar Wish List</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <h1>Vintage Guitar Wish List</h1>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="Make" class="primary">Make</label>
+          <input type="text" id="make" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="Model" class="primary">Model</label>
+          <input type="text" id="model" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="Color" class="primary">Colour</label>
+          <input type="text" id="color" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="Year of Manufacture" class="primary">Year of Manufacture</label>
+          <input type="text" id="year" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="Price" class="primary">Price</label>
+          <input type="text" id="price" required/>
+        </div>
+
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+    <h2>Wish List</h2>
+    <table>
+    <thead>
+
+    </thead>
+    <tbody  id = "wish-list">
+
+        <tr>
+            <td>MAKE</td>
+            <td>MODEL</td>
+            <td>COLOUR</td>
+            <td>YEAR</td>
+            <td>PRICE</td>
+        </tr>
+    </tbody>
+
+</table>
+
+
+    <button id="delete-button" type="button">Delete All</button>
+  </body>
+</html>

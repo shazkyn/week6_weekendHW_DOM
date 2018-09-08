@@ -1,0 +1,41 @@
+body {
+  background-color: #1C2541;
+  color: #fff;
+  font-family: Verdana;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #1C2541;
+  color: #fff;
+}
+
+
+td {
+  display: inline-block;
+  padding: 20px;
+  height: 10px;
+  width: 150px;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: blue;
+}
+
+
+.form-item {
+  display: inline-block;
+  padding: 20px;
+  height: 100px;
+  width: 150px;
+
+}
+
+
+.flex-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
