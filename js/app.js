@@ -14,8 +14,6 @@ const handleDeleteClicked = function(event) {
 
 const handleSaveClicked = function(event) {
   event.preventDefault()
-
-
    const makeCell = document.createElement('td')
    makeCell.textContent = `${event.target.make.value}`;
    const modelCell = document.createElement('td')

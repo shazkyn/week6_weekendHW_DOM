@@ -1,13 +1,18 @@
 body {
-  background-color: #1C2541;
   color: #fff;
   font-family: Verdana;
+  background-image: url('../images/vintage_guitars.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin: 10px;
 }
 
-h1 {
+ h1 {
   font-family: sans-serif;
   text-align: center;
-  background-color: #1C2541;
   color: #fff;
 }
 
